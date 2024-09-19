@@ -34,33 +34,24 @@ These are the exposed variables within the `BP_SequencePlayer` blueprint, which 
 
 ### **Audio Effects**
 These settings modify how sound effects are processed during playback.
+![image](https://github.com/user-attachments/assets/44697118-92f9-4602-b030-022bef757fad)
 
 #### Distortion
+ ![image](https://github.com/user-attachments/assets/4d6f73ec-6024-4077-8e8f-bda7e0bc162f)
 - **Min Distortion Amount**: Controls the minimum distortion applied to the audio, making it sound slightly garbled and damaged, as if played on malfunctioning equipment.
-  
-  ![MinDistortionAmount](placeholder_image_path)
-
 - **Max Distortion Amount**: Controls the maximum distortion level, which can range from subtle to harsh noise depending on your setting.
-  
-  ![MaxDistortionAmount](placeholder_image_path)
 
 #### Reverb
-- **Min Reverb Amount**: Adds a minimum amount of reverb, simulating sound in a large, empty room or broadcast hall.
-  
-  ![MinReverbAmount](placeholder_image_path)
+![image](https://github.com/user-attachments/assets/e324f216-723f-4c80-98a5-6ed05fa686e8)
 
+- **Min Reverb Amount**: Adds a minimum amount of reverb, simulating sound in a large, empty room or broadcast hall.
 - **Max Reverb Amount**: Sets the maximum reverb effect, allowing the sound to echo more intensely in a larger simulated space.
   
-  ![MaxReverbAmount](placeholder_image_path)
 
 #### Flanger
+![image](https://github.com/user-attachments/assets/5a043b0b-6640-416e-979f-9efd0882d252)
 - **Min Flanger Amount**: Controls the minimum level of the flanger effect, giving a subtle warping effect to the audio.
-  
-  ![MinFlangerAmount](placeholder_image_path)
-
 - **Max Flanger Amount**: Adjusts the maximum flanger, increasing the warping or sweeping effect for a more noticeable alteration in sound.
-  
-  ![MaxFlangerAmount](placeholder_image_path)
 
 ---
 
@@ -69,43 +60,41 @@ These controls allow you to input the text to be broadcasted and play/stop the s
 
 - **Input String**: The text you want to be converted into a number-station broadcast. The generator will translate the text and play it through the sequence.
   
-  ![InputString](placeholder_image_path)
+  ![image](https://github.com/user-attachments/assets/78dc1b69-dc9f-4787-8cbb-8a4ec467da16)
+
 
 ---
 
 ### **Randomization**
+
+![image](https://github.com/user-attachments/assets/e7f0a61b-1fd9-484e-ab59-3907d9cc70b3)
+
+
 These settings control the randomization behavior of audio volume, pitch, and delays between sounds, adding variability to the broadcast.
 
 #### Volume
-- **Min Volume**: Sets the minimum volume level for each sound.
-  
-  ![MinVolume](placeholder_image_path)
+![image](https://github.com/user-attachments/assets/6256e764-673e-4c85-9e7c-9a4ef17e14c8)
 
+- **Min Volume**: Sets the minimum volume level for each sound.
 - **Max Volume**: Sets the maximum volume level, ensuring the sound does not exceed a certain loudness.
   
-  ![MaxVolume](placeholder_image_path)
-
 #### Pitch
-- **Min Pitch**: Adjusts the lowest pitch variation for the sound.
-  
-  ![MinPitch](placeholder_image_path)
+![image](https://github.com/user-attachments/assets/357bfd57-e6ed-48a6-8b1c-667e48d69321)
 
+- **Min Pitch**: Adjusts the lowest pitch variation for the sound.
 - **Max Pitch**: Controls the highest pitch variation, allowing sounds to become slightly higher or deeper in tone.
   
-  ![MaxPitch](placeholder_image_path)
-
 #### Delay
-- **Min Delay**: Sets the minimum delay between the playback of each sound in the sequence.
-  
-  ![MinDelay](placeholder_image_path)
+![image](https://github.com/user-attachments/assets/5e29adfc-c7e5-45a4-9b81-49523fc65433)
 
+- **Min Delay**: Sets the minimum delay between the playback of each sound in the sequence.
 - **Max Delay**: Adjusts the maximum possible delay between each sound to increase randomness.
   
-  ![MaxDelay](placeholder_image_path)
-
 ---
 
 ## Attribution
+![image](https://github.com/user-attachments/assets/9b75f509-03d3-48b8-8ac0-a2d5ba878e29)
+
 - For attribution, see the level named **Attribution**.
 
 ## Customization

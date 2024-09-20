@@ -167,7 +167,7 @@ void ASequencePlayer::PlayNextSound()
             SoundComponent->SetFloatParameter(FName("ReverbAmount"), RandomReverb);
             SoundComponent->SetFloatParameter(FName("FlangerAmount"), RandomFlanger);
 
-            ActiveAudioComponents.Add(SoundComponent)
+            ActiveAudioComponents.Add(SoundComponent);
         }
 
         float SoundDuration = SoundToPlay->GetDuration() > 0 ? SoundToPlay->GetDuration() : 0.5f;

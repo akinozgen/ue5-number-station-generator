@@ -2,6 +2,8 @@
 
 This project includes a number-station generator made with/for Unreal Engine, allowing you to translate text into a creepy number-station broadcast with customizable audio effects.
 
+[Check playable demo](https://github.com/akinozgen/ue5-number-station-generator/releases)
+
 ## How to Use
 
 ### 1. Clone or Download the Repository

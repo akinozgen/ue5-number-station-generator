@@ -27,42 +27,41 @@ public:
     UFUNCTION(BlueprintCallable, CallInEditor, Category = "Sequence Player")
     void StopSequence();
 
-    
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio Effects|Distortion")
-    float MinDistortionAmount = 0.2f;
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio Effects|Distortion", meta = (ClampMin = "0.0", ClampMax = "1.0", UIMin = "0.0", UIMax = "1.0"))
+    float MinDistortionAmount = 0.1f;
 
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio Effects|Distortion")
-    float MaxDistortionAmount = 0.7f;
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio Effects|Distortion", meta = (ClampMin = "0.0", ClampMax = "1.0", UIMin = "0.0", UIMax = "1.0"))
+    float MaxDistortionAmount = 0.4f;
 
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio Effects|Reverb")
-    float MinReverbAmount = 0.2f;
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio Effects|Reverb", meta = (ClampMin = "0.0", ClampMax = "1.0", UIMin = "0.0", UIMax = "1.0"))
+    float MinReverbAmount = 0.1f;
 
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio Effects|Reverb")
-    float MaxReverbAmount = 0.8f;
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio Effects|Reverb", meta = (ClampMin = "0.0", ClampMax = "1.0", UIMin = "0.0", UIMax = "1.0"))
+    float MaxReverbAmount = 0.6f;
 
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio Effects|Flanger")
-    float MinFlangerAmount = 0.25f;
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio Effects|Flanger", meta = (ClampMin = "0.0", ClampMax = "1.0", UIMin = "0.0", UIMax = "1.0"))
+    float MinFlangerAmount = 0.15f;
 
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio Effects|Flanger")
-    float MaxFlangerAmount = 0.5f;
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio Effects|Flanger", meta = (ClampMin = "0.0", ClampMax = "1.0", UIMin = "0.0", UIMax = "1.0"))
+    float MaxFlangerAmount = 0.4f;
 
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Randomization|Volume")
-    float MinVolume = 0.5f;
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Randomization|Volume", meta = (ClampMin = "0.0", ClampMax = "1.0", UIMin = "0.0", UIMax = "1.0"))
+    float MinVolume = 0.8f;
 
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Randomization|Volume")
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Randomization|Volume", meta = (ClampMin = "0.0", ClampMax = "1.0", UIMin = "0.0", UIMax = "1.0"))
     float MaxVolume = 1.0f;
 
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Randomization|Pitch")
-    float MinPitch = 0.5f;
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Randomization|Pitch", meta = (ClampMin = "0.5", ClampMax = "2.0", UIMin = "0.5", UIMax = "2.0"))
+    float MinPitch = 0.8f;
 
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Randomization|Pitch")
-    float MaxPitch = 1.9f;
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Randomization|Pitch", meta = (ClampMin = "0.5", ClampMax = "2.0", UIMin = "0.5", UIMax = "2.0"))
+    float MaxPitch = 1.5f;
 
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Randomization|Delay")
-    float MinDelay = 0.6f;
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Randomization|Delay", meta = (ClampMin = "0.0", ClampMax = "5.0", UIMin = "0.0", UIMax = "5.0"))
+    float MinDelay = 0.5f;
 
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Randomization|Delay")
-    float MaxDelay = 1.5f;
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Randomization|Delay", meta = (ClampMin = "0.0", ClampMax = "5.0", UIMin = "0.0", UIMax = "5.0"))
+    float MaxDelay = 1.2f;
 
 private:
     USoundBase* PlaySoundForCharacter(int32 Character);
